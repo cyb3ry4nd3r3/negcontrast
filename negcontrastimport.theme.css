@@ -1,0 +1,77 @@
+/**
+ * @name negcontrast
+ * @author jackcook99
+ * @version Auto
+ * @description a dim low contrast them meant to be easy on the eyes
+**/
+/*im running a test*/
+:root {
+	/*Primary*/
+	--lv1: #00000f;
+	--accent: #1973d3;
+	--hover: #135193;
+	--bg: url('https://i.imgur.com/GdnbuVj.jpg');
+	--tooltip-color:#f6f6f7;
+	--bg-opacity: 0.25;
+	--bg-fade: 80%;
+
+	/*Support for other themes*/
+	--mc: var(--accent);
+	--hc: var(--hover);
+	--main-color: var(--accent);
+	--hover-color: var(--hover);
+	--roundness: var(--user-roundness);
+	--lvl-bg-opacity:var(--bg-opacity);
+	--lvl-bg-fade:var(--bg-fade);
+	--online:var(--success);
+	--idle:var(--caution);
+	--dnd:var(--danger);
+	--offline:var(--unavailable);
+	--invisible:var(--invisible);
+	--streaming:var(--twitch-purple);
+
+	/*Branding*/
+	--theme-name: 'Yannight UI';
+	--theme-version: '3.3';
+
+	/*Discord Vars*/
+	--deprecated-store-bg: var(--lv1);
+	--background-primary: var(--lv1);
+	--background-secondary: var(--lv1);
+	--background-secondary-alt:var(--lv1);
+	--background-tertiary: var(--lv1);
+	--channeltextarea-background:var(--lv1);
+	--background-modifier-active:transparent;
+
+	/*Status*/
+	--success: #11d85d;
+	--caution: #ffd104;
+	--danger: #e20b0b;
+	--unavailable: #636b75;
+	--invisible: #747f8d;
+	--information:#4a90e2;
+	--twitch-purple: #9146FF;
+	--spotify-green:#1DB954;
+	--xbox-green:#0e7a0d;
+	--netflix-red:#e50914;
+
+	/*Roundness*/
+	--user-roundness:0;
+	--guilds-roundness:0;
+
+	/*Fonts*/
+	--sizelg:1.25rem;
+	--size0: 1.15rem;
+	--size1: .925rem;
+	--size2: .8rem;
+	--size3: .75rem;
+	--size4: .7rem;
+	--size5: .5rem;
+	--size6: .35rem;
+	--font:    'Inter', BlenderProBold;
+	--letter-spacing: -.02rem;
+	font-size: 14px !important;
+
+	/*Toasts*/
+	--toast-background:var(--lv1);
+}
