@@ -8,9 +8,9 @@
 :root {
 	/*Primary*/
 	--lv1: #00000f;
-	--accent: #1973d3;
-	--hover: #135193;
-	--bg: url('https://i.imgur.com/GdnbuVj.jpg');
+	--accent: #124275;
+	--hover: #0e355f;
+	--bg: url('');
 	--tooltip-color:#f6f6f7;
 	--bg-opacity: 0.25;
 	--bg-fade: 80%;
@@ -42,18 +42,18 @@
 	--background-tertiary: var(--lv1);
 	--channeltextarea-background:var(--lv1);
 	--background-modifier-active:transparent;
-
+	--interactive-active: var(--channels-default);
 	/*Status*/
-	--success: #11d85d;
-	--caution: #ffd104;
-	--danger: #e20b0b;
-	--unavailable: #636b75;
-	--invisible: #747f8d;
-	--information:#4a90e2;
-	--twitch-purple: #9146FF;
-	--spotify-green:#1DB954;
-	--xbox-green:#0e7a0d;
-	--netflix-red:#e50914;
+	--success: #085827;
+	--caution: #8b7200;
+	--danger: #7a0606;
+	--unavailable: #33373b;
+	--invisible: #444a52;
+	--information:#325d8d;
+	--twitch-purple: rgb(58, 29, 100);
+	--spotify-green:rgb(16, 92, 42);
+	--xbox-green:#0a4609;
+	--netflix-red:#91090f;
 
 	/*Roundness*/
 	--user-roundness:0;
@@ -70,7 +70,7 @@
 	--size6: .35rem;
 	--font:    'Inter', BlenderProBold;
 	--letter-spacing: -.02rem;
-	font-size: 14px !important;
+	font-size: 17px !important;
 
 	/*Toasts*/
 	--toast-background:var(--lv1);
