@@ -7,12 +7,13 @@
 /*im running a test*/
 :root {
 	/*Primary*/
-	--lv1: #00000f;
-	--accent: #1973d3;
-	--hover: #135193;
+	--lv1:#101310;
+	--accent: #124275;
+	--hover: #0e355f;
 	--bg: url('https://i.imgur.com/GdnbuVj.jpg');
+	--codeblock:rgba(15,15,15,0.1);
 	--tooltip-color:#f6f6f7;
-	--bg-opacity: 0.25;
+	--bg-opacity: 0.75;
 	--bg-fade: 80%;
 
 	/*Support for other themes*/
@@ -30,10 +31,6 @@
 	--invisible:var(--invisible);
 	--streaming:var(--twitch-purple);
 
-	/*Branding*/
-	--theme-name: 'Yannight UI';
-	--theme-version: '3.3';
-
 	/*Discord Vars*/
 	--deprecated-store-bg: var(--lv1);
 	--background-primary: var(--lv1);
@@ -42,18 +39,18 @@
 	--background-tertiary: var(--lv1);
 	--channeltextarea-background:var(--lv1);
 	--background-modifier-active:transparent;
-
+	--interactive-active: var(--channels-default);
 	/*Status*/
-	--success: #11d85d;
-	--caution: #ffd104;
-	--danger: #e20b0b;
-	--unavailable: #636b75;
-	--invisible: #747f8d;
-	--information:#4a90e2;
-	--twitch-purple: #9146FF;
-	--spotify-green:#1DB954;
-	--xbox-green:#0e7a0d;
-	--netflix-red:#e50914;
+	--success: #085827;
+	--caution: #8b7200;
+	--danger: #7a0606;
+	--unavailable: #33373b;
+	--invisible: #444a52;
+	--information:#325d8d;
+	--twitch-purple: rgb(58, 29, 100);
+	--spotify-green:rgb(16, 92, 42);
+	--xbox-green:#0a4609;
+	--netflix-red:#91090f;
 
 	/*Roundness*/
 	--user-roundness:0;
@@ -70,8 +67,193 @@
 	--size6: .35rem;
 	--font:    'Inter', BlenderProBold;
 	--letter-spacing: -.02rem;
-	font-size: 14px !important;
+	font-size: 17px !important;
 
 	/*Toasts*/
 	--toast-background:var(--lv1);
+}
+
+	.content-yTz4x3 {
+		filter: contrast(0.5) brightness(50%);
+		background:transparent;
+	}
+	.markup-2BOw-j code {
+	    background: var(--codeblock);
+	}
+	.members-1998pB, .members-1998pB>div {
+	    background-color: transparent
+
+
+	}
+	.theme-dark .form-2fGMdU:before {
+	    background: transparent;
+	}
+	.input-2VB9rf{
+		background-color: var(--lv1);
+	}
+	.messagesWrapper-3lZDfY::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+
+		opacity: var(--bg-opacity);
+		background-attachment:fixed;
+		background: var(--bg) center/cover no-repeat;
+		-webkit-mask-image: radial-gradient(black, transparent var(--bg-fade));
+	}
+	.theme-dark .form-2fGMdU:before, .chat-3bRxxu {
+	    background: transparent;
+	}
+	.sidebar-2K8pFh {
+	    background: transparent;
+	}
+	.theme-dark .form-2fGMdU:before, .chat-3bRxxu {
+	    background: transparent;
+	}
+	#app-mount:before {
+	  content: "";
+	  background: var(--bg);
+	  background-position: center;
+	  background-size: cover;
+	  position: absolute;
+	  height: 100%;
+	  width: 100%;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  z-index: 0;
+		opacity: 0.5;
+	  /*background: var(--bg) center/cover no-repeat;*/
+	}
+	.scroller-2LSbBU {
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background: transparent;
+	}
+	.app-2rEoOp {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    background: transparent;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	}
+	.bg-h5JY_x {
+	    background-color: var(--lv1);
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+			opacity: var(--bg-opacity);
+	}
+	.wrapper-3NnKdC {
+	    overflow: hidden;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    width: 72px;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	    -ms-flex-negative: 0;
+	    flex-shrink: 0;
+	    position: relative;
+	    background-color: var(--background-tertiary);
+			opacity: var(--bg-opacity);
+	}
+	.scroller-RmtA4e {
+	    z-index: 1;
+	    padding-right: 8px;
+			background-color: transparent;
+			opacity: var(--bg-opacity);
+	}
+.container-3w7J-x {
+	    position: relative;
+			opacity: var(--bg-opacity);
+	}
+	.scroller-1Bvpku {
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	    padding: 12px 0 0;
+	    background-color: transparent;
+	    contain: layout size;
+	    filter: contrast(0.5) brightness(50%);
+	}
+.container-3baos1 {
+	filter: contrast(0.5) brightness(50%);
+}
+
+.peopleList-3c4jOR {
+    padding-bottom: 8px;
+    /* filter: contrast(0.5) brightness(50%); */
+    background: var(--lv1);
+}
+.peopleListItem-2nzedh {
+filter: contrast(0.5) brightness(50%);
+}
+.children-19S4PO {
+    filter: contrast(0.5) brightness(50%);
+}
+.content-3YMskv {
+    filter: contrast(0.5) brightness(50%);
+}
+.title-29uC1r, .toolbar-1t6TWx {
+    filter: contrast(0.5) brightness(50%);
+}
+.wrapper-2qzCYF.minimum-28Z35l {
+    background-color: transparent;
+}
+.voiceCallWrapper-3kPwHm {
+    filter: contrast(0.5) brightness(50%);
+}
+.wrapper-3EGhDO {
+    filter: contrast(0.5) brightness(50%);
+}
+.container-1giJp5 {
+    filter: contrast(0.5) brightness(50%);
+}
+.contentColumnDefault-1VQkGM {
+    filter: contrast(0.5) brightness(50%);
+}
+.sidebar-CFHs9e {
+    filter: contrast(0.5) brightness(50%);
+}
+.theme-dark .perksModal-fSYqOq {
+    background-color: transparent;
+}
+.carouselContainerVisible-1JVIpW {
+    filter: contrast(0.5) brightness(50%);
+}
+.headerBlurb-1GxBrq {
+    filter: contrast(0.5) brightness(50%);
+}
+.headerGraphic-nVhv-X, .headerLogo--hLLAk {
+    filter: contrast(0.5) brightness(50%);
+}
+.progressBar-2Hd4f8 {
+    filter: contrast(0.5) brightness(50%);
+}
+.theme-dark .ctaBar-2UsjF2 {
+    filter: contrast(0.5) brightness(50%);
+}
+.content-2qfHzC {
+    filter: contrast(0.5) brightness(50%);
+}
+.mention-1f5kbO {
+    filter: contrast(0.5) brightness(50%);
 }
