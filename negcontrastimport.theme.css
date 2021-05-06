@@ -7,7 +7,7 @@
 /*im running a test*/
 :root {
 	/*Primary*/
-	--lv1: #101310;
+	--lv1:#101310;
 	--accent: #124275;
 	--hover: #0e355f;
 	--bg: url('https://i.imgur.com/GdnbuVj.jpg');
@@ -81,7 +81,9 @@
 	    background: var(--codeblock);
 	}
 	.members-1998pB, .members-1998pB>div {
-	    background-color: transparent;
+	    background-color: transparent
+
+
 	}
 	.theme-dark .form-2fGMdU:before {
 	    background: transparent;
@@ -203,4 +205,55 @@
 }
 .peopleListItem-2nzedh {
 filter: contrast(0.5) brightness(50%);
+}
+.children-19S4PO {
+    filter: contrast(0.5) brightness(50%);
+}
+.content-3YMskv {
+    filter: contrast(0.5) brightness(50%);
+}
+.title-29uC1r, .toolbar-1t6TWx {
+    filter: contrast(0.5) brightness(50%);
+}
+.wrapper-2qzCYF.minimum-28Z35l {
+    background-color: transparent;
+}
+.voiceCallWrapper-3kPwHm {
+    filter: contrast(0.5) brightness(50%);
+}
+.wrapper-3EGhDO {
+    filter: contrast(0.5) brightness(50%);
+}
+.container-1giJp5 {
+    filter: contrast(0.5) brightness(50%);
+}
+.contentColumnDefault-1VQkGM {
+    filter: contrast(0.5) brightness(50%);
+}
+.sidebar-CFHs9e {
+    filter: contrast(0.5) brightness(50%);
+}
+.theme-dark .perksModal-fSYqOq {
+    background-color: transparent;
+}
+.carouselContainerVisible-1JVIpW {
+    filter: contrast(0.5) brightness(50%);
+}
+.headerBlurb-1GxBrq {
+    filter: contrast(0.5) brightness(50%);
+}
+.headerGraphic-nVhv-X, .headerLogo--hLLAk {
+    filter: contrast(0.5) brightness(50%);
+}
+.progressBar-2Hd4f8 {
+    filter: contrast(0.5) brightness(50%);
+}
+.theme-dark .ctaBar-2UsjF2 {
+    filter: contrast(0.5) brightness(50%);
+}
+.content-2qfHzC {
+    filter: contrast(0.5) brightness(50%);
+}
+.mention-1f5kbO {
+    filter: contrast(0.5) brightness(50%);
 }
