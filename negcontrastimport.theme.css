@@ -257,3 +257,40 @@ filter: contrast(0.5) brightness(50%);
 .mention-1f5kbO {
     filter: contrast(0.5) brightness(50%);
 }
+
+.theme-dark .uploadModal-2ifh8j {
+    filter: contrast(0.5) brightness(50%);
+}
+.textContainer-C0szpm {
+    background-color: var(--codeblock);
+}
+.footer-2yA7Ep {
+    background-color: var(--codeblock);
+}
+.contentWrapper-SvZHNd {
+    filter: contrast(0.5) brightness(50%);
+}
+.theme-dark .root-1gCeng {
+    filter: contrast(0.5) brightness(50%);
+}
+.userPopout-3XzG_A {
+    filter: contrast(0.5) brightness(50%);
+}
+.messagesPopoutWrap-1MQ1bW {
+    filter: contrast(0.5) brightness(50%);
+}
+.layerContainer-yqaFcK {
+    filter: contrast(0.5) brightness(50%);
+}
+.toasts{
+	filter: contrast(0.5) brightness(50%);
+}
+.name-1jkAdW, .tierTooltipTitle-3AtaZT {
+    filter: contrast(0.5) brightness(50%);
+}
+.flowerStar-1GeTsn {
+    filter: contrast(0.5) brightness(50%);
+}
+.toasts-tApoHv.right-Eka_pI {
+    filter: contrast(0.5) brightness(50%);
+}
