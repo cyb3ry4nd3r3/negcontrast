@@ -15,7 +15,8 @@
 	--tooltip-color:#f6f6f7;
 	--bg-opacity: 0.75;
 	--bg-fade: 80%;
-
+	--contrast: .5;
+	--brightness: 50%
 	/*Support for other themes*/
 	--mc: var(--accent);
 	--hc: var(--hover);
@@ -74,7 +75,7 @@
 }
 
 	.content-yTz4x3 {
-		filter: contrast(0.5) brightness(50%);
+		filter: contrast(var(--contrast)) brightness(var(--brightness));
 		background:transparent;
 	}
 	.markup-2BOw-j code {
@@ -192,74 +193,74 @@
 	    padding: 12px 0 0;
 	    background-color: transparent;
 	    contain: layout size;
-	    filter: contrast(0.5) brightness(50%);
+	    filter: contrast(var(--contrast)) brightness(var(--brightness));
 	}
 .container-3baos1 {
-	filter: contrast(0.5) brightness(50%);
+	filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 
 .peopleList-3c4jOR {
     padding-bottom: 8px;
-    /* filter: contrast(0.5) brightness(50%); */
+    /* filter: contrast(var(--contrast)) brightness(var(--brightness)); */
     background: var(--lv1);
 }
 .peopleListItem-2nzedh {
-filter: contrast(0.5) brightness(50%);
+filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .children-19S4PO {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .content-3YMskv {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .title-29uC1r, .toolbar-1t6TWx {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .wrapper-2qzCYF.minimum-28Z35l {
     background-color: transparent;
 }
 .voiceCallWrapper-3kPwHm {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .wrapper-3EGhDO {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .container-1giJp5 {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .contentColumnDefault-1VQkGM {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .sidebar-CFHs9e {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .theme-dark .perksModal-fSYqOq {
     background-color: transparent;
 }
 .carouselContainerVisible-1JVIpW {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .headerBlurb-1GxBrq {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .headerGraphic-nVhv-X, .headerLogo--hLLAk {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .progressBar-2Hd4f8 {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .theme-dark .ctaBar-2UsjF2 {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .content-2qfHzC {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .mention-1f5kbO {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 
 .theme-dark .uploadModal-2ifh8j {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .textContainer-C0szpm {
     background-color: var(--codeblock);
@@ -268,29 +269,29 @@ filter: contrast(0.5) brightness(50%);
     background-color: var(--codeblock);
 }
 .contentWrapper-SvZHNd {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .theme-dark .root-1gCeng {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .userPopout-3XzG_A {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .messagesPopoutWrap-1MQ1bW {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .layerContainer-yqaFcK {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .toasts{
-	filter: contrast(0.5) brightness(50%);
+	filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .name-1jkAdW, .tierTooltipTitle-3AtaZT {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .flowerStar-1GeTsn {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .toasts-tApoHv.right-Eka_pI {
-    filter: contrast(0.5) brightness(50%);
+    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
