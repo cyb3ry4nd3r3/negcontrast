@@ -16,7 +16,8 @@
 	--tooltip-color:#f6f6f7;
 	--bg-opacity: 0.75;
 	--bg-fade: 80%;
-
+	--contrast: .5;
+	--brightness: 50%
 	/*Support for other themes*/
 	--mc: var(--accent);
 	--hc: var(--hover);
