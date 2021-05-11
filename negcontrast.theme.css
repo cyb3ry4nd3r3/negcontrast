@@ -8,7 +8,7 @@
 @import url("https://cyb3ry4nd3r3.github.io/negcontrast/negcontrastimport.theme.css");
 :root {
 	/*Primary*/
-	--lv1:#101310;
+	--lv1:#000000;
 	--accent: #124275;
 	--hover: #0e355f;
 	--bg: url('https://i.imgur.com/GdnbuVj.jpg');
@@ -17,7 +17,7 @@
 	--bg-opacity: 0.75;
 	--bg-fade: 80%;
 	--contrast: .5;
-	--brightness: 50%;
+	--brightness: .5;
 	/*Support for other themes*/
 	--mc: var(--accent);
 	--hc: var(--hover);
