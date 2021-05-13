@@ -2,7 +2,6 @@
     font-family: 'Atkinson';
     src: url('Atkinson-Hyperlegible-Regular-102.eot');
     src: local('Atkinson-Hyperlegible-Regular-102'), local('Atkinson-Hyperlegible-Regular-102'),
-        url('Atkinson-Hyperlegible-Regular-102.eot?#iefix') format('embedded-opentype'),
         url('Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'),
         url('Atkinson-Hyperlegible-Regular-102.woff') format('woff'),
         url('Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
@@ -13,8 +12,7 @@
 @font-face {
     font-family: 'Atkinson';
     src: url('Atkinson-Hyperlegible-Italic-102.eot');
-    src: local('Atkinson-Hyperlegible-Italic-102.eot?#iefix'), local('Atkinson-Hyperlegible-Italic-102'),
-        url('Atkinson-Hyperlegible-Italic-102') format('embedded-opentype'),
+    src: local('Atkinson-Hyperlegible-Italic-102'), local('Atkinson-Hyperlegible-Italic-102'),
         url('Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2'),
         url('Atkinson-Hyperlegible-Italic-102.woff') format('woff'),
         url('Atkinson-Hyperlegible-Italic-102.ttf') format('truetype');
@@ -26,7 +24,6 @@
     font-family: 'Atkinson';
     src: url('Atkinson-Hyperlegible-Bold-102.eot');
     src: local('Atkinson-Hyperlegible-Bold-102'), local('Atkinson-Hyperlegible-Bold-102'),
-        url('Atkinson-Hyperlegible-Bold-102') format('embedded-opentype'),
         url('Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'),
         url('Atkinson-Hyperlegible-Bold-102.woff') format('woff'),
         url('Atkinson-Hyperlegible-Bold-102.ttf') format('truetype');
@@ -38,7 +35,6 @@
     font-family: 'Atkinson';
     src: url('Atkinson-Hyperlegible-BoldItalic-102.eot');
     src: local('Atkinson-Hyperlegible-BoldItalic-102'), local('Atkinson-Hyperlegible-BoldItalic-102'),
-        url('Atkinson-Hyperlegible-BoldItalic-102') format('embedded-opentype'),
         url('Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff2'),
         url('Atkinson-Hyperlegible-BoldItalic-102.woff') format('woff'),
         url('Atkinson-Hyperlegible-BoldItalic-102.ttf') format('truetype');

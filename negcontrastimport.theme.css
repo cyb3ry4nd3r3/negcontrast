@@ -5,18 +5,22 @@
  * @description a dim low contrast them meant to be easy on the eyes
 **/
 /*im running a test*/
+@import url("https://cyb3ry4nd3r3.github.io/negcontrast/negfont/stylesheet.css");
 :root {
 	/*Primary*/
-	--lv1:#101310;
+	--lv1:   #000000;
 	--accent: #124275;
 	--hover: #0e355f;
+	--header-primary:#a9a9a9;
 	--bg: url('https://i.imgur.com/GdnbuVj.jpg');
 	--codeblock:rgba(15,15,15,0.1);
 	--tooltip-color:#f6f6f7;
 	--bg-opacity: 0.75;
 	--bg-fade: 80%;
-	--contrast: .5;
-	--brightness: 50%
+	--contrast:  .75;
+	--brightness:   .75;
+	--viewwidth:240px;
+	--hiddenwidth:10px;
 	/*Support for other themes*/
 	--mc: var(--accent);
 	--hc: var(--hover);
@@ -69,9 +73,82 @@
 	--font:    'Inter', BlenderProBold;
 	--letter-spacing: -.02rem;
 	font-size: 17px !important;
+	--theme-name:  'negcontrast';
+	--theme-version:    '1.2';
 
 	/*Toasts*/
 	--toast-background:var(--lv1);
+}
+
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: Atkinson;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.membersWrap-2h-GB4 {
+  transition-duration: .4s;
+  justify-content: unset;
+  min-width: unset;
+  width: var(--hiddenwidth);
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
+  height: 40px;
+}
+
+.membersWrap-2h-GB4:hover {
+  width: var(--viewwidth);
+}
+
+.membersWrap-2h-GB4 {
+  transition-duration: .4s;
+  justify-content: unset;
+  min-width: unset;
+  width: var(--hiddenwidth);
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
+  height: 40px;
+}
+
+.membersWrap-2h-GB4:hover {
+  width: var(--viewwidth);
+}
+
+.wrapper-3NnKdC {
+    z-index: 3;
+    width: 10px;
+    height: 680.5px;
+    transition: 250ms ease-in;
+}
+.tree-2wKJdG {
+    top: 100%;
+    left: 0;
+    height: 900px;
+    width: 10px;
+    transition: 250ms ease-in;
+}
+.wrapper-3NnKdC:hover {
+    height: 690px;
+    width:69px;
+}
+.wrapper-3NnKdC:hover .tree-2wKJdG {
+    width: 69px;
+}
+.wrapper-3NnKdC.content-Pph8t6 {
+    position: absolute;
+    width: 90px;
+    transform: translateX(-50%) translateY(-12.5px);
+    z-index: 2;
+}
+.content-Pph8t6.closed-j55_T- {
+    visibility: hidden;
 }
 
 	.content-yTz4x3 {
@@ -198,100 +275,87 @@
 .container-3baos1 {
 	filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
+.tutorialcontainer-2sGCg9 childWrapper-anI2G9 {
+	background:transparent!important;
+	line-height:40px;
+	-webkit-mask: url("https://i.imgur.com/K8Ps3J7.png");
+	-webkit-mask-size: 40px;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	color:rgba(255,255,255) !important;
+}
+.homeIcon-FuNwkv path {display: none;}
+.homeIcon-FuNwkv{
+	background-image: url('https://i.imgur.com/K8Ps3J7.png');
+	background-color: transparent !important;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100%;
+	width: 100%;
 
+}
+
+.wordmark-2iDDfm {
+	opacity: 1;
+	width: 100%;
+	background: var(--lv1);
+	padding: 0;
+	display: flex;
+	align-items: center;
+	height: 30px;
+	padding-left: 12px;
+}
+
+.wordmark-2iDDfm svg {
+	display: none;
+}
+
+.wordmark-2iDDfm:before,
+.wordmark-2iDDfm:after {
+  font-size:var(--size1);
+}
+
+.wordmark-2iDDfm:before {
+	content: var(--theme-name);
+	font-weight: 600;
+	color: var(--header-primary);
+
+}
+
+.wordmark-2iDDfm:after {
+	content: 'v' var(--theme-version);
+	font-weight: 400;
+	color: rgba(255, 255, 255, .8);
+	margin-left: 5px;
+}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    color: #fff;
+    background-color: rgba(5,5,5,1);
+}
 .peopleList-3c4jOR {
     padding-bottom: 8px;
     /* filter: contrast(var(--contrast)) brightness(var(--brightness)); */
     background: var(--lv1);
 }
-.peopleListItem-2nzedh {
-filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.children-19S4PO {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.content-3YMskv {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.title-29uC1r, .toolbar-1t6TWx {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.wrapper-2qzCYF.minimum-28Z35l {
-    background-color: transparent;
-}
-.voiceCallWrapper-3kPwHm {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.wrapper-3EGhDO {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.container-1giJp5 {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.contentColumnDefault-1VQkGM {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.sidebar-CFHs9e {
+
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+    background-color: var(--lv1);
+	}
+	.inner-1ilYF7 {
+		filter: contrast(var(--contrast)) brightness(var(--brightness));
+		  background-color: var(--lv1);
+	}
+
+.toasts-tApoHv.right-Eka_pI,.flowerStar-1GeTsn .name-1jkAdW, .tierTooltipTitle-3AtaZT,.toasts,.layerContainer-yqaFcK,.messagesPopoutWrap-1MQ1bW,.messagesPopoutWrap-1MQ1bW,.userPopout-3XzG_A,.contentWrapper-SvZHNd,.theme-dark .uploadModal-2ifh8j,.mention-1f5kbO ,.content-2qfHzC,.theme-dark .ctaBar-2UsjF2,.progressBar-2Hd4f8,.headerGraphic-nVhv-X, .headerLogo--hLLAk,.headerBlurb-1GxBrq,.carouselContainerVisible-1JVIpW,.sidebar-CFHs9e,.contentColumnDefault-1VQkGM,.inner-1ilYF7,.peopleListItem-2nzedh,.children-19S4PO,.wrapper-2qzCYF.minimum-28Z35l,.title-29uC1r,.toolbar-1t6TWx,.wrapper-3EGhDO, .container-1giJp5,.voiceCallWrapper-3kPwHm,.content-3YMskv,.title-29uC1r, .toolbar-1t6TWx {
     filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .theme-dark .perksModal-fSYqOq {
     background-color: transparent;
-}
-.carouselContainerVisible-1JVIpW {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.headerBlurb-1GxBrq {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.headerGraphic-nVhv-X, .headerLogo--hLLAk {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.progressBar-2Hd4f8 {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.theme-dark .ctaBar-2UsjF2 {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.content-2qfHzC {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.mention-1f5kbO {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-
-.theme-dark .uploadModal-2ifh8j {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
 .textContainer-C0szpm {
     background-color: var(--codeblock);
 }
 .footer-2yA7Ep {
     background-color: var(--codeblock);
-}
-.contentWrapper-SvZHNd {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.theme-dark .root-1gCeng {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.userPopout-3XzG_A {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.messagesPopoutWrap-1MQ1bW {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.layerContainer-yqaFcK {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.toasts{
-	filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.name-1jkAdW, .tierTooltipTitle-3AtaZT {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.flowerStar-1GeTsn {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
-}
-.toasts-tApoHv.right-Eka_pI {
-    filter: contrast(var(--contrast)) brightness(var(--brightness));
 }
