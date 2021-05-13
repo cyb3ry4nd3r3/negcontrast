@@ -6,18 +6,22 @@
 **/
 /*im running a test*/
 @import url("https://cyb3ry4nd3r3.github.io/negcontrast/negcontrastimport.theme.css");
+@import url("https://cyb3ry4nd3r3.github.io/negcontrast/negfont/stylesheet.css");
 :root {
 	/*Primary*/
-	--lv1:#000000;
+	--lv1:   #000000;
 	--accent: #124275;
 	--hover: #0e355f;
+	--header-primary:#a9a9a9;
 	--bg: url('https://i.imgur.com/GdnbuVj.jpg');
 	--codeblock:rgba(15,15,15,0.1);
 	--tooltip-color:#f6f6f7;
 	--bg-opacity: 0.75;
 	--bg-fade: 80%;
-	--contrast: .5;
-	--brightness: .5;
+	--contrast:  .75;
+	--brightness:   .75;
+	--viewwidth: 240px;
+	--hiddenwidth: 10px;
 	/*Support for other themes*/
 	--mc: var(--accent);
 	--hc: var(--hover);
@@ -70,6 +74,8 @@
 	--font:    'Inter', BlenderProBold;
 	--letter-spacing: -.02rem;
 	font-size: 17px !important;
+	--theme-name:  'negcontrast';
+	--theme-version:    '1.2';
 
 	/*Toasts*/
 	--toast-background:var(--lv1);
