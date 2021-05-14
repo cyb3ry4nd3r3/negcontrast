@@ -1,11 +1,12 @@
 /**
- * @name negcontrast
+ * @name negcontrasttest
  * @author jackcook99
  * @version Auto
  * @description a dim low contrast them meant to be easy on the eyes
 **/
 /*im running a test*/
 @import url("https://cyb3ry4nd3r3.github.io/negcontrast/negfont/stylesheet.css");
+@import url("https://cyb3ry4nd3r3.github.io/negcontrast/tuckedservers.css");/*comment this out to disable sliding servers*/
 :root {
 	/*Primary*/
 	--lv1:   #000000;
@@ -91,35 +92,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     vertical-align: baseline;
 }
 
-.membersWrap-2h-GB4 {
-  transition-duration: .4s;
-  justify-content: unset;
-  min-width: unset;
-  width: var(--hiddenwidth);
-}
-
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
-  height: 40px;
-}
-
-.membersWrap-2h-GB4:hover {
-  width: var(--viewwidth);
-}
-
-.membersWrap-2h-GB4 {
-  transition-duration: .4s;
-  justify-content: unset;
-  min-width: unset;
-  width: var(--hiddenwidth);
-}
-
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
-  height: 40px;
-}
-
-.membersWrap-2h-GB4:hover {
-  width: var(--viewwidth);
-}
 
 
 	.content-yTz4x3 {
@@ -208,18 +180,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 			opacity: var(--bg-opacity);
 	}
 	.wrapper-3NnKdC {
-	    overflow: hidden;
-	    display: -webkit-box;
-	    display: -ms-flexbox;
-	    display: flex;
-	    width: 72px;
-	    -webkit-box-orient: vertical;
-	    -webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	    flex-direction: column;
-	    -ms-flex-negative: 0;
-	    flex-shrink: 0;
-	    position: relative;
 	    background-color: var(--background-tertiary);
 			opacity: var(--bg-opacity);
 	}
@@ -329,33 +289,4 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 .footer-2yA7Ep {
     background-color: var(--codeblock);
-}
-
-.wrapper-3NnKdC {
-    z-index: 3;
-    width: 10px;
-    height: 100%;
-    transition: 250ms ease-in;
-}
-.tree-2wKJdG {
-    top: 100%;
-    left: 0;
-    height: 100%;
-    width: 10px;
-    transition: 250ms ease-in;
-}
-.wrapper-3NnKdC:hover {
-    height: 100%;
-    width:69px;
-}
-.wrapper-3NnKdC:hover .tree-2wKJdG {
-    width: 69px;
-		height: 100%
-}
-.wrapper-3NnKdC.content-Pph8t6 {
-    width: 9.0px;
-    z-index: 2;
-}
-.content-Pph8t6.closed-j55_T- {
-    visibility: hidden;
 }
