@@ -6,7 +6,8 @@
 **/
 /*im running a test*/
 @import url("https://cyb3ry4nd3r3.github.io/negcontrast/negfont/stylesheet.css");
-
+@import url("https://cyb3ry4nd3r3.github.io/negcontrast/tuckedservers.css");/*comment this out to disable sliding servers*/
+@import url("https://cyb3ry4nd3r3.github.io/negcontrast/longsettings.css");/*comment this out if you dont want long settings*/
 :root {
 	/*Primary*/
 	--lv1:   #000000;
@@ -340,12 +341,4 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, dd, del
 }
 .footer-2yA7Ep {
     background-color: var(--codeblock);
-}
-.sidebarRegion-VFTUkN,
-.sidebarRegionScroller-3MXcoP {
-    flex: 0 0 auto;
-}
-
-.contentColumnDefault-1VQkGM {
-    max-width: unset;
 }
